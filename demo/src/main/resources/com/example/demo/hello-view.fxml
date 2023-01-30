@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootScene" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <ImageView fitHeight="771.0" fitWidth="741.0" layoutY="-103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@space.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnSalir" layoutX="451.0" layoutY="462.0" mnemonicParsing="false" onMouseClicked="#btnSalirOnMouse" prefHeight="24.0" prefWidth="129.0" text="Salir" />
+      <Button fx:id="btnCrear" layoutX="14.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#btnCrearOnMouse" prefHeight="24.0" prefWidth="129.0" text="Facil" />
+      <Button fx:id="btnDetener" layoutX="171.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#btnDetener" prefHeight="24.0" prefWidth="129.0" text="SetPlayer" />
+      <Button fx:id="btnIzquierda" layoutX="171.0" layoutY="461.0" mnemonicParsing="false" onMouseClicked="#BtnIzquierda" prefHeight="25.0" prefWidth="129.0" text="Izquierda" />
+      <Button fx:id="btnDerecha" layoutX="312.0" layoutY="461.0" mnemonicParsing="false" onMouseClicked="#BtnDerecha" prefHeight="25.0" prefWidth="129.0" text="Derecha" />
+   </children>
+</AnchorPane>
